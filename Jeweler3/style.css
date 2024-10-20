@@ -1,0 +1,142 @@
+body {
+    background: #FFFFFF;
+    margin: 0;
+}
+* {
+    font-family: Inter;
+    font-weight: 400;
+    color: #000;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 42px;
+}
+.logo {
+    font-size: 35px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+    padding-bottom: 14px;
+    border-bottom: 2px solid #C17D4E;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #C17D4E;
+}
+.main {
+    padding: 40px 0 48px 0;
+}
+.main_description {
+    font-size: 26px;
+}
+.main_btn {
+    width: 227px;
+    height: 38px;
+    margin-top: 36px;
+    color: #FFF;
+    font-size: 15px;
+    background: #C17D4E;
+    border-radius: 19px;
+    border: none;
+}
+.main_btn:hover {
+    background: #FFF;
+    color: #C17D4E;
+    border: 1px solid #C17D4E;
+}
+.main_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 23px;
+}
+.data {
+    width: 538px;
+    margin-bottom: 27px;
+}
+.title {
+    font-family: Yeseva One;
+    font-size: 65px;
+    font-weight: 400;
+}
+.data_description {
+    font-size: 23px;
+}
+.data img {
+    border-radius: 58px;
+}
+footer {
+    height: 71px;
+    background: #C17D4E;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.social_item {
+    width: 26px;
+    height: 26px;
+    margin-right: 11px;
+    text-decoration: none;
+}
+.copyright {
+    color: #FFF;
+    font-size: 19px;
+}
+.phone {
+    color: #FFF;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.reviews {
+    padding: 38px 0 78px 0;
+}
+.reviews_wrapper {
+    display: grid;
+    grid-template-columns: 564px 564px;
+    grid-template-rows: 242px 242px;
+    column-gap: 32px;
+    row-gap: 96px;
+    margin-top: 83px;
+}
+.photo {
+    float: left;
+    margin-right: 35px;
+}
+.name a {
+    text-decoration: none;
+    color: #C17D4E;
+    font-size: 30px;
+    font-weight: 700;    
+}
+.name a:hover {
+    color: #000;
+}
+.text {
+    font-size: 23px;
+    margin-top: 12px;
+}
+.raiting {
+    margin-top: 16px;
+}
+.star {
+    margin-right: 15px;
+}
